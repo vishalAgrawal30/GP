@@ -40,7 +40,7 @@ form.addEventListener("submit", function(e) {
         Message: form.Message.value
     };
 
-    emailjs.send("service_z52om3n", "template_ta7q3vd", formData)
+    emailjs.send("service_mail", "template_c6jug3a", formData)
     .then(function() {
         alert("Message sent successfully!");
         form.reset();
